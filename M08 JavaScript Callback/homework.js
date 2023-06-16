@@ -71,7 +71,7 @@ function filter(arrayOfStrings) {
    var nuevoArray = [];
    arrayOfStrings.forEach(function(elemento){
       if (elemento[0] === 'a') {
-         nuevoArray.push(elemento);
+         nuevoArray.push(elemento[i]);
       }
    })
    return nuevoArray;
